@@ -1,0 +1,184 @@
+body {
+    height: 95vh;
+    background: url(Travel.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: fadein 2s;
+}
+
+ul>li {
+    list-style-type: none;
+    text-align: center;
+    padding: 10px;
+}
+
+ul>li>a {
+    color: #004E64;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+}
+
+ul>li>a:hover {
+    color: #ba2d0b;
+}
+
+ul> :first-child {
+    border: none;
+    color: #2d232e;
+    font-size: 22px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.grid-container {
+    display: grid;
+    background: #F7F4F3;
+    grid-column-gap: 10px;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+.grid-item1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.grid-item2 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+.grid-item3 {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.grid-item4 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+}
+
+.grid-item5 {
+    grid-column-start: 6;
+    grid-column-end: 7;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-gap: 10px;
+    padding-left: 150px;
+}
+
+.main .content .text-1 {
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #011627;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 150px;
+    /* padding-left: 150px; */
+}
+
+.services-container div {
+    font-family: 'Roboto', sans-serif;
+    color: #011627;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 150px;
+    grid-row-gap: 50px;
+}
+
+.main>.gallery>div>img {
+    width: 320px;
+    height: 250px;
+}
+
+.contact-details {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-gap: 20px;
+}
+
+.follow {
+    display: grid;
+}
+
+.follow a {
+    padding-left: 50px;
+}
+
+.fa-facebook {
+    color: #4867AA;
+    margin-right: 5px;
+}
+
+.fa-twitter {
+    color: #5AA4D6;
+    margin-right: 5px;
+}
+
+.fa-youtube-play {
+    color: #F70000;
+    margin-right: 5px;
+}
+
+.fa-instagram {
+    color: #BD308C;
+    margin-right: 5px;
+}
+
+.details {
+    display: grid;
+    grid-gap: 15px;
+}
+
+.details label {
+    font-family: 'Roboto', sans-serif;
+    color: #011627;
+    font-size: 20px
+}
+
+.details input {
+    font-family: 'Roboto', sans-serif;
+    color: #011627;
+    height: 30px;
+}
+
+.details .details-item6 {
+    height: 80px;
+}
+
+.details .details-item7 {
+    width: 30%;
+    margin-top: 30px;
+}
+
+h2 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
